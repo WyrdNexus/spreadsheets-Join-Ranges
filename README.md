@@ -3,7 +3,7 @@ Simple object to bring SQL inner join behavior to Google sheets.
 
 ## Usage
 `
-    =rangeUnion( B2:D3, B6:E8, 1, 2 )
+    =joinRanges( B2:D3, B6:E8, 1, 2 )
 `
 
 ### Parameters
@@ -28,10 +28,10 @@ Simple object to bring SQL inner join behavior to Google sheets.
 | 8   |     | 1  | computers | 1 | |
 | 9   |     | 1  | mice | 7 | |
 | 10   |     |   |  |  | |
-| 11   |  *rangeUnion*   |   |  |  | |
+| 11   |  *joinRanges*   |   |  |  | |
 
 ### Result
-Placing `=rangeUnion( B2:E3, B6:D9, 4, 1 )` in cell A11:
+Placing `=joinRanges( B2:E3, B6:D9, 4, 1 )` in cell A11:
 
 |   | A | B | C | D | E |
 | --- | --- | --- | --- | --- | --- |

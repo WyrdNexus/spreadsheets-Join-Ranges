@@ -31,7 +31,7 @@ Simple object to bring SQL inner join behavior to Google sheets.
 | 11   |  *rangeUnion*   |   |  |  | |
 
 ### Result
-Placing `=rangeUnion( B2:E3, B6DE9, 4, 1 )` in cell A11:
+Placing `=rangeUnion( B2:E3, B6:D9, 4, 1 )` in cell A11:
 
 |   | A | B | C | D | E |
 | --- | --- | --- | --- | --- | --- |
